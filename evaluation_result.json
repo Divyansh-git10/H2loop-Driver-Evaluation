@@ -1,0 +1,18 @@
+{
+    "compilation": {
+        "success": true,
+        "warnings": 0,
+        "errors": 0
+    },
+    "code_quality": {
+        "style_issues": 0,
+        "style_errors": 0,
+        "style_score": 1.0
+    },
+    "security": {
+        "buffer_safety": 1.0,
+        "race_conditions": 0.5,
+        "input_validation": 0.4
+    },
+    "overall_score": 75.83
+}
