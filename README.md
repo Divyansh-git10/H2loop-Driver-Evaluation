@@ -104,6 +104,6 @@ docs/
 ## 👤 Author
 
 **Divyansh Gautam**
-* ML Internship Assignment – Linux Device Driver Evaluation *
+*ML Internship Assignment – Linux Device Driver Evaluation*
 
 ````
