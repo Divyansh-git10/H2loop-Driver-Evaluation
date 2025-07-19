@@ -97,5 +97,4 @@ docs/
 
 Divyansh Gautam
 ML Internship Assignment – Linux Device Driver Evaluation 
-
 ```
