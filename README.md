@@ -88,7 +88,10 @@ docs/
 ```
 
 ---
+
 🎥 **Demo Recording:** [Watch here](https://www.loom.com/share/3f5a7f0deaaf438fb0cbaa28353cc0b8?sid=51073f74-a089-4dbd-93e4-075835623f6e)
+
+---
 
 ## 👤 Author
 
@@ -96,5 +99,3 @@ Divyansh Gautam
 ML Internship Assignment – Linux Device Driver Evaluation 
 
 ```
-
-
