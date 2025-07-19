@@ -107,5 +107,3 @@ docs/
 *ML Internship Assignment – Linux Device Driver Evaluation*
 
 ````
-
----
