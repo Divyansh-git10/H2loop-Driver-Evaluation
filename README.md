@@ -31,8 +31,8 @@ It outputs a **detailed JSON report** with component-wise scores.
 1. Upload your `.c` driver file in Colab (e.g., `char_driver_sample.c`)
 2. Run each cell in `h2loop.ipynb`:
    - `compile_driver()`
-   - `check_style()`
-   - `run_security_checks()`
+   - `check_style()`  
+   - `run_security_checks()`  
    - `calculate_score()`
 
 3. Final output:  
@@ -43,8 +43,8 @@ It outputs a **detailed JSON report** with component-wise scores.
 
 ## 🧪 Test Files Included
 
-- `char_driver_sample.c` — base test driver
-- `llm_generated_driver.c` — ChatGPT-generated driver
+- `char_driver_sample.c` — base test driver  
+- `llm_generated_driver.c` — ChatGPT-generated driver  
 - `test_driver_sim.c` — simulates runtime test
 
 ---
@@ -68,29 +68,36 @@ It outputs a **detailed JSON report** with component-wise scores.
 
 ## 🧠 Bonus Tasks
 
-### 🧪 1. Simulated Runtime Test
+### 1. Simulated Runtime Test
 
 A user-space simulation (`test_driver_sim.c`) mimics interaction with the driver (read/write buffer).
 ➡️ Output saved in `results/runtime_test_output.txt`
 
-### 📘 2. LLM Evaluation Suggestions
+### 2. LLM Evaluation Suggestions
 
-See: `docs/LLM_Suggestions.md`
-Covers fine-tuning, prompt engineering, and LLM eval loop improvements.
+See: `LLM_Suggestions` file for notes on fine-tuning, prompt engineering, and evaluation loop design.
+
+---
+
+## 📚 Documentation
+
+- [ARCHITECTURE](ARCHITECTURE.md)
+- [RUBRICS](RUBRICS.md)
+- [USER_GUIDE](USER_GUIDE.md)
+- [LLM_SUGGESTIONS](LLM_Suggestions.md)
+
 
 ---
 
 ## 📁 Repo Structure
 
 ```
-evaluation/            → Main Python evaluation pipeline
-test_cases/            → Driver input `.c` files
-results/               → Output JSON + logs
-docs/
-├── LLM_Suggestions.md
-├── ARCHITECTURE.md
-├── RUBRICS.md
-├── USER_GUIDE.md
+h2loop.ipynb                 → Colab-based evaluation pipeline
+char_driver_sample.c        → Sample driver file
+llm_generated_driver.c      → LLM-generated test driver
+test_driver_sim.c           → Runtime simulation test
+evaluation_result.json      → Sample output JSON
+ARCHITECTURE / RUBRICS / USER_GUIDE / LLM_Suggestions → Documentation files
 ```
 
 ---
@@ -106,4 +113,5 @@ docs/
 **Divyansh Gautam**
 *ML Internship Assignment – Linux Device Driver Evaluation*
 
-````
+
+```
